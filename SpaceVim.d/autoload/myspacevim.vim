@@ -3,5 +3,6 @@ function! myspacevim#before() abort
 endfunction
 
 function! myspacevim#after() abort
+	set splitright
 	set cc=80
 endfunction
