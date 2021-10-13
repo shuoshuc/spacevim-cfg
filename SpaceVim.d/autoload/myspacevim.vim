@@ -5,4 +5,5 @@ endfunction
 function! myspacevim#after() abort
 	set splitright
 	set cc=80
+	tnoremap <expr> <Esc> (&filetype == "fzf") ? "<Esc>" : "<c-\><c-n>"
 endfunction

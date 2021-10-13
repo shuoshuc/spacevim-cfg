@@ -32,6 +32,8 @@
     relativenumber = false
     bootstrap_before = 'myspacevim#before'
     bootstrap_after = 'myspacevim#after'
+    colorscheme = "primary"
+    colorscheme_bg = "dark"
 
 # Enable autocomplete layer
 [[layers]]
@@ -59,3 +61,10 @@ name = "format"
 
 [[layers]]
 name = "lang#python"
+
+[[layers]]
+name = "colorscheme"
+
+[[custom_plugins]]
+repo = "google/vim-colorscheme-primary"
+merged = 0
