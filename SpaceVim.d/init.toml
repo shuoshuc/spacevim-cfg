@@ -26,8 +26,8 @@
     vimcompatible = true
     filetree_direction = "left"
     enable_filetree_gitstatus = true
-    default_indent = 8
-    expand_tab = false
+    default_indent = 4
+    #expand_tab = false
     max_column = 80
     relativenumber = false
     bootstrap_before = 'myspacevim#before'
@@ -72,4 +72,8 @@ merged = 0
 
 [[custom_plugins]]
 repo = "Vimjas/vim-python-pep8-indent"
+merged = false
+
+[[custom_plugins]]
+repo = "vivien/vim-linux-coding-style"
 merged = false
