@@ -3,6 +3,7 @@ function! myspacevim#before() abort
 endfunction
 
 function! myspacevim#after() abort
+    let g:neomake_open_list = 0
 	set splitright
 	set cc=80
 	tnoremap <expr> <Esc> (&filetype == "fzf") ? "<Esc>" : "<c-\><c-n>"
