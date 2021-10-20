@@ -65,6 +65,11 @@ name = "lang#python"
 [[layers]]
 name = "colorscheme"
 
+[[layers]]
+name = "checkers"
+lint_on_save = false
+show_cursor_error = false
+
 [[custom_plugins]]
 # color scheme name is 'primary'
 repo = "google/vim-colorscheme-primary"
