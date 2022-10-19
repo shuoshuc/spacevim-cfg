@@ -61,6 +61,7 @@ name = "format"
 
 [[layers]]
 name = "lang#python"
+format_on_save = true
 
 [[layers]]
 name = "colorscheme"
