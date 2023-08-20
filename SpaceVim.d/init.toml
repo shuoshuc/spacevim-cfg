@@ -58,6 +58,8 @@ enable_clang_syntax_highlight = true
 
 [[layers]]
 name = "format"
+format_method = "codefmt"
+format_on_save = true
 
 [[layers]]
 name = "lang#python"
